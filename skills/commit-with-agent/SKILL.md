@@ -1,6 +1,9 @@
 ---
-name: ai-commit-co-author
+name: commit-with-agent
 description: Add AI co-author attribution to a new Git commit without changing the user's normal commit workflow. Use when the user wants to commit changes and also wants AI co-authored info, a `Co-authored-by` trailer, AI attribution in the commit message, or wording like "commit with AI co-author", "commit with Codex/Claude co-author", or "add AI collaborator info to this commit". Support one explicit override trigger, `$commit-with-agent ...`, when the user wants to force one or more specific agent trailers such as `claude`, `codex`, or `claude,codex`.
+license: MIT
+metadata: 
+  version: "1.0.1"
 ---
 
 # Commit With Agent
